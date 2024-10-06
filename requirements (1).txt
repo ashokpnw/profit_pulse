@@ -1,0 +1,5 @@
+discord.py
+aiosqlite
+pnwkit
+matplotlib
+python-dotenv
