@@ -21,8 +21,7 @@ load_dotenv()
 TOKEN = os.getenv('TOKEN')
 PNW_API_KEY = os.getenv('PNW_API_KEY')
 kit = pnwkit.QueryKit(PNW_API_KEY)
-LOG_CHANNEL_ID = 1283031424399839263
-verification_codes={}
+LOG_CHANNEL_ID = os.getenv('log_channel')
 AUTHORIZED_ROLE_ID = int(os.getenv('AUTHORIZED_ROLE_ID'))
 
 intents = discord.Intents.default()
